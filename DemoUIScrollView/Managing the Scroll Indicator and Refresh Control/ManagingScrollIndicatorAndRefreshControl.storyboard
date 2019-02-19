@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Managing Scroll Indicator And Refresh Control View Controller-->
+        <scene sceneID="k0h-zr-1gA">
+            <objects>
+                <viewController storyboardIdentifier="ManagingScrollIndicatorAndRefreshControlViewController" id="qLV-rK-XC2" customClass="ManagingScrollIndicatorAndRefreshControlViewController" customModule="DemoUIScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MoE-w0-cAA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXT-yN-S8a">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQH-Hw-PTZ" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="647"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-Rj-egg">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                                <color key="backgroundColor" red="1" green="0.50256038169999995" blue="0.44317888170000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x7m-DG-iuB">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="647"/>
+                                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="x7m-DG-iuB" firstAttribute="leading" secondItem="Oel-Rj-egg" secondAttribute="trailing" id="HCf-Zl-0Yd"/>
+                                            <constraint firstItem="x7m-DG-iuB" firstAttribute="top" secondItem="yQH-Hw-PTZ" secondAttribute="top" id="Jzc-pr-tgL"/>
+                                            <constraint firstItem="x7m-DG-iuB" firstAttribute="width" secondItem="Oel-Rj-egg" secondAttribute="width" id="bIt-ye-u6S"/>
+                                            <constraint firstAttribute="bottom" secondItem="Oel-Rj-egg" secondAttribute="bottom" id="fES-or-St6"/>
+                                            <constraint firstItem="Oel-Rj-egg" firstAttribute="leading" secondItem="yQH-Hw-PTZ" secondAttribute="leading" id="jig-2K-6MQ"/>
+                                            <constraint firstItem="Oel-Rj-egg" firstAttribute="top" secondItem="yQH-Hw-PTZ" secondAttribute="top" id="jqG-R4-NoS"/>
+                                            <constraint firstAttribute="trailing" secondItem="x7m-DG-iuB" secondAttribute="trailing" id="rbM-iR-3UM"/>
+                                            <constraint firstAttribute="bottom" secondItem="x7m-DG-iuB" secondAttribute="bottom" id="smO-ou-H7K"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yQH-Hw-PTZ" firstAttribute="leading" secondItem="nXT-yN-S8a" secondAttribute="leading" id="GGL-3b-6Ji"/>
+                                    <constraint firstAttribute="bottom" secondItem="yQH-Hw-PTZ" secondAttribute="bottom" id="QNv-bj-KW1"/>
+                                    <constraint firstItem="Oel-Rj-egg" firstAttribute="height" secondItem="nXT-yN-S8a" secondAttribute="height" id="WdX-cm-92N"/>
+                                    <constraint firstItem="Oel-Rj-egg" firstAttribute="width" secondItem="nXT-yN-S8a" secondAttribute="width" id="cSQ-eU-48d"/>
+                                    <constraint firstAttribute="trailing" secondItem="yQH-Hw-PTZ" secondAttribute="trailing" id="rgS-0h-8Pu"/>
+                                    <constraint firstItem="yQH-Hw-PTZ" firstAttribute="top" secondItem="nXT-yN-S8a" secondAttribute="top" id="xC4-oF-MyJ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nXT-yN-S8a" firstAttribute="top" secondItem="0l5-Uv-HZh" secondAttribute="top" id="BrS-n7-3kO"/>
+                            <constraint firstItem="nXT-yN-S8a" firstAttribute="leading" secondItem="0l5-Uv-HZh" secondAttribute="leading" id="Wfv-px-lOW"/>
+                            <constraint firstItem="0l5-Uv-HZh" firstAttribute="trailing" secondItem="nXT-yN-S8a" secondAttribute="trailing" id="dvQ-2R-d2J"/>
+                            <constraint firstItem="0l5-Uv-HZh" firstAttribute="bottom" secondItem="nXT-yN-S8a" secondAttribute="bottom" id="n0e-0A-8Al"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0l5-Uv-HZh"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="nXT-yN-S8a" id="Ji8-44-PJN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nXz-dS-6VT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="-173.16341829085459"/>
+        </scene>
+    </scenes>
+</document>

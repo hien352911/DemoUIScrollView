@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B080744221B946500140EC7 /* ManagingContentSizeAndOffset.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B080743221B946500140EC7 /* ManagingContentSizeAndOffset.storyboard */; };
+		8B080746221B94CF00140EC7 /* ManagingContentInsetBehavior.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B080745221B94CF00140EC7 /* ManagingContentInsetBehavior.storyboard */; };
+		8B080748221B950F00140EC7 /* GettingLayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B080747221B950F00140EC7 /* GettingLayoutGuides.storyboard */; };
+		8B08074B221B95D100140EC7 /* ConfiguringScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B08074A221B95D100140EC7 /* ConfiguringScrollView.storyboard */; };
+		8B08074D221B960000140EC7 /* ConfiguringScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B08074C221B960000140EC7 /* ConfiguringScrollViewViewController.swift */; };
+		8B51609F221C18610043320F /* GettingScrollingState.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B51609E221C18610043320F /* GettingScrollingState.storyboard */; };
+		8B5160A1221C18720043320F /* GettingScrollingStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5160A0221C18720043320F /* GettingScrollingStateViewController.swift */; };
+		8B5160A4221C1CB60043320F /* ManagingScrollIndicatorAndRefreshControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5160A3221C1CB60043320F /* ManagingScrollIndicatorAndRefreshControl.storyboard */; };
+		8B5160A6221C1CC40043320F /* ManagingScrollIndicatorAndRefreshControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5160A5221C1CC40043320F /* ManagingScrollIndicatorAndRefreshControlViewController.swift */; };
 		AA76C02B221AF22A00B60DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C02A221AF22A00B60DFE /* AppDelegate.swift */; };
 		AA76C02D221AF22A00B60DFE /* ManagingContentSizeAndOffsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C02C221AF22A00B60DFE /* ManagingContentSizeAndOffsetViewController.swift */; };
 		AA76C030221AF22A00B60DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA76C02E221AF22A00B60DFE /* Main.storyboard */; };
 		AA76C032221AF22C00B60DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA76C031221AF22C00B60DFE /* Assets.xcassets */; };
 		AA76C035221AF22C00B60DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA76C033221AF22C00B60DFE /* LaunchScreen.storyboard */; };
-		AA76C03F221B0FB700B60DFE /* Managing the Content Inset Behavior ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C03E221B0FB700B60DFE /* Managing the Content Inset Behavior ViewController.swift */; };
+		AA76C03F221B0FB700B60DFE /* ManagingContentInsetBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C03E221B0FB700B60DFE /* ManagingContentInsetBehaviorViewController.swift */; };
 		AA76C042221B202300B60DFE /* GettingLayoutGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76C041221B202300B60DFE /* GettingLayoutGuidesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B080743221B946500140EC7 /* ManagingContentSizeAndOffset.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManagingContentSizeAndOffset.storyboard; sourceTree = "<group>"; };
+		8B080745221B94CF00140EC7 /* ManagingContentInsetBehavior.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManagingContentInsetBehavior.storyboard; sourceTree = "<group>"; };
+		8B080747221B950F00140EC7 /* GettingLayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GettingLayoutGuides.storyboard; sourceTree = "<group>"; };
+		8B08074A221B95D100140EC7 /* ConfiguringScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfiguringScrollView.storyboard; sourceTree = "<group>"; };
+		8B08074C221B960000140EC7 /* ConfiguringScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguringScrollViewViewController.swift; sourceTree = "<group>"; };
+		8B51609E221C18610043320F /* GettingScrollingState.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GettingScrollingState.storyboard; sourceTree = "<group>"; };
+		8B5160A0221C18720043320F /* GettingScrollingStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingScrollingStateViewController.swift; sourceTree = "<group>"; };
+		8B5160A3221C1CB60043320F /* ManagingScrollIndicatorAndRefreshControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManagingScrollIndicatorAndRefreshControl.storyboard; sourceTree = "<group>"; };
+		8B5160A5221C1CC40043320F /* ManagingScrollIndicatorAndRefreshControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagingScrollIndicatorAndRefreshControlViewController.swift; sourceTree = "<group>"; };
 		AA76C027221AF22A00B60DFE /* DemoUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA76C02A221AF22A00B60DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA76C02C221AF22A00B60DFE /* ManagingContentSizeAndOffsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagingContentSizeAndOffsetViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +42,7 @@
 		AA76C031221AF22C00B60DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA76C034221AF22C00B60DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA76C036221AF22C00B60DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA76C03E221B0FB700B60DFE /* Managing the Content Inset Behavior ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Managing the Content Inset Behavior ViewController.swift"; sourceTree = "<group>"; };
+		AA76C03E221B0FB700B60DFE /* ManagingContentInsetBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagingContentInsetBehaviorViewController.swift; sourceTree = "<group>"; };
 		AA76C041221B202300B60DFE /* GettingLayoutGuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingLayoutGuidesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +57,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B080749221B95B600140EC7 /* Configuring the Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				8B08074A221B95D100140EC7 /* ConfiguringScrollView.storyboard */,
+				8B08074C221B960000140EC7 /* ConfiguringScrollViewViewController.swift */,
+			);
+			path = "Configuring the Scroll View";
+			sourceTree = "<group>";
+		};
+		8B51609D221C18510043320F /* Getting the Scrolling State */ = {
+			isa = PBXGroup;
+			children = (
+				8B51609E221C18610043320F /* GettingScrollingState.storyboard */,
+				8B5160A0221C18720043320F /* GettingScrollingStateViewController.swift */,
+			);
+			path = "Getting the Scrolling State";
+			sourceTree = "<group>";
+		};
+		8B5160A2221C1C920043320F /* Managing the Scroll Indicator and Refresh Control */ = {
+			isa = PBXGroup;
+			children = (
+				8B5160A3221C1CB60043320F /* ManagingScrollIndicatorAndRefreshControl.storyboard */,
+				8B5160A5221C1CC40043320F /* ManagingScrollIndicatorAndRefreshControlViewController.swift */,
+			);
+			path = "Managing the Scroll Indicator and Refresh Control";
+			sourceTree = "<group>";
+		};
 		AA76C01E221AF22A00B60DFE = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +107,9 @@
 				AA76C03C221B014200B60DFE /* Managing the Content Size and Offset */,
 				AA76C03D221B0F8900B60DFE /* Managing the Content Inset Behavior  */,
 				AA76C040221B200D00B60DFE /* Getting the Layout Guides */,
+				8B080749221B95B600140EC7 /* Configuring the Scroll View */,
+				8B51609D221C18510043320F /* Getting the Scrolling State */,
+				8B5160A2221C1C920043320F /* Managing the Scroll Indicator and Refresh Control */,
 				AA76C02E221AF22A00B60DFE /* Main.storyboard */,
 				AA76C031221AF22C00B60DFE /* Assets.xcassets */,
 				AA76C033221AF22C00B60DFE /* LaunchScreen.storyboard */,
@@ -73,6 +121,7 @@
 		AA76C03C221B014200B60DFE /* Managing the Content Size and Offset */ = {
 			isa = PBXGroup;
 			children = (
+				8B080743221B946500140EC7 /* ManagingContentSizeAndOffset.storyboard */,
 				AA76C02C221AF22A00B60DFE /* ManagingContentSizeAndOffsetViewController.swift */,
 			);
 			path = "Managing the Content Size and Offset";
@@ -81,7 +130,8 @@
 		AA76C03D221B0F8900B60DFE /* Managing the Content Inset Behavior  */ = {
 			isa = PBXGroup;
 			children = (
-				AA76C03E221B0FB700B60DFE /* Managing the Content Inset Behavior ViewController.swift */,
+				8B080745221B94CF00140EC7 /* ManagingContentInsetBehavior.storyboard */,
+				AA76C03E221B0FB700B60DFE /* ManagingContentInsetBehaviorViewController.swift */,
 			);
 			path = "Managing the Content Inset Behavior ";
 			sourceTree = "<group>";
@@ -89,6 +139,7 @@
 		AA76C040221B200D00B60DFE /* Getting the Layout Guides */ = {
 			isa = PBXGroup;
 			children = (
+				8B080747221B950F00140EC7 /* GettingLayoutGuides.storyboard */,
 				AA76C041221B202300B60DFE /* GettingLayoutGuidesViewController.swift */,
 			);
 			path = "Getting the Layout Guides";
@@ -153,8 +204,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA76C035221AF22C00B60DFE /* LaunchScreen.storyboard in Resources */,
+				8B080748221B950F00140EC7 /* GettingLayoutGuides.storyboard in Resources */,
+				8B080744221B946500140EC7 /* ManagingContentSizeAndOffset.storyboard in Resources */,
 				AA76C032221AF22C00B60DFE /* Assets.xcassets in Resources */,
+				8B08074B221B95D100140EC7 /* ConfiguringScrollView.storyboard in Resources */,
 				AA76C030221AF22A00B60DFE /* Main.storyboard in Resources */,
+				8B5160A4221C1CB60043320F /* ManagingScrollIndicatorAndRefreshControl.storyboard in Resources */,
+				8B51609F221C18610043320F /* GettingScrollingState.storyboard in Resources */,
+				8B080746221B94CF00140EC7 /* ManagingContentInsetBehavior.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +224,11 @@
 			files = (
 				AA76C02D221AF22A00B60DFE /* ManagingContentSizeAndOffsetViewController.swift in Sources */,
 				AA76C02B221AF22A00B60DFE /* AppDelegate.swift in Sources */,
+				8B08074D221B960000140EC7 /* ConfiguringScrollViewViewController.swift in Sources */,
 				AA76C042221B202300B60DFE /* GettingLayoutGuidesViewController.swift in Sources */,
-				AA76C03F221B0FB700B60DFE /* Managing the Content Inset Behavior ViewController.swift in Sources */,
+				AA76C03F221B0FB700B60DFE /* ManagingContentInsetBehaviorViewController.swift in Sources */,
+				8B5160A1221C18720043320F /* GettingScrollingStateViewController.swift in Sources */,
+				8B5160A6221C1CC40043320F /* ManagingScrollIndicatorAndRefreshControlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
